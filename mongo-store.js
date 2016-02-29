@@ -87,7 +87,7 @@ function metaquery(qent,q) {
 module.exports = function(opts) {
   var seneca = this
   var desc
-
+      name = opts.name || name
   var dbinst  = null
   var collmap = {}
   var specifications = null
